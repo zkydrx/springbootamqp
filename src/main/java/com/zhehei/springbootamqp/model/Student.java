@@ -1,0 +1,44 @@
+package com.zhehei.springbootamqp.model;
+
+/**
+ * Created with IntelliJ IDEA.
+ * Author: zky
+ * Date: 2019-03-22
+ * Time: 14:06:03
+ * Description:
+ */
+public class Student
+{
+    private String name;
+    private Integer age;
+
+    public Student()
+    {
+    }
+
+    public Student(String name, Integer age)
+    {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public Integer getAge()
+    {
+        return age;
+    }
+
+    public void setAge(Integer age)
+    {
+        this.age = age;
+    }
+}
